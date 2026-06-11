@@ -79,3 +79,42 @@ export const solutions = [
   title: string;
   description: string;
 }>;
+
+export const whyAionixFeatures = [
+  {
+    id: 1,
+    title: 'Enterprise Architecture',
+    description: 'Secure, reliable, and built to scale from day one.',
+    icon: '🛡️',
+  },
+  {
+    id: 2,
+    title: 'AI First',
+    description: 'AI is not an add-on. It\'s in the core of everything we build.',
+    icon: '🌍',
+  },
+  {
+    id: 3,
+    title: 'Business Focus',
+    description: 'Every feature maps to real outcomes and measurable impact.',
+    icon: '🎯',
+  },
+  {
+    id: 4,
+    title: 'Scalable Systems',
+    description: 'Designed to grow with your business without limits.',
+    icon: '📊',
+  },
+  {
+    id: 5,
+    title: 'Modern Infrastructure',
+    description: 'Cloud-native, resilient and optimized for performance.',
+    icon: '☁️',
+  },
+  {
+    id: 6,
+    title: 'Fast Delivery',
+    description: 'Agile, transparent, and focused on getting value to you faster.',
+    icon: '⚡',
+  },
+];
