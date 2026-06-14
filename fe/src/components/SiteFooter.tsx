@@ -17,7 +17,7 @@ const footerColumns = [
 
 export function SiteFooter() {
   return (
-    <footer className="site-footer" aria-labelledby="footer-title">
+    <footer className="site-footer" aria-labelledby="footer-title" id="about">
       <div className="site-footer__inner">
         <div className="footer-brand">
           <BrandMark variant="footer" />
