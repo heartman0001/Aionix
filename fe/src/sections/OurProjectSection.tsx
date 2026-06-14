@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ArrowRight } from 'lucide-react';
 import TestImg from '../img/mainpage/Test.png';
 import TestImg2 from '../img/mainpage/Test2.png';
 
@@ -46,7 +47,7 @@ export function OurProjectSection() {
                 <h3>He mha</h3>
                 <p>In a rapidly evolving tech landscape, businesses need a partner that combines product, engineering, and design to ship quickly.</p>
                 <div className="cta">
-                  <button className="button button--card button--compact">View Case Study</button>
+                  <button className="button button--card button--compact">View Case Study <ArrowRight size={16} strokeWidth={2.4} aria-hidden="true" /></button>
                 </div>
               </div>
             </article>
@@ -67,7 +68,7 @@ export function OurProjectSection() {
                 <h3>BI MALA</h3>
                 <p>In a rapidly evolving tech landscape, businesses need a partner that combines product, engineering, and design to ship quickly.</p>
                 <div className="cta">
-                  <button className="button button--card button--compact">View Case Study</button>
+                  <button className="button button--card button--compact">View Case Study <ArrowRight size={16} strokeWidth={2.4} aria-hidden="true" /></button>
                 </div>
               </div>
             </article>
@@ -76,7 +77,7 @@ export function OurProjectSection() {
 {/* End Mock--Up เด้อสู */}
 
         <div className="view-all-projects-button">
-          <button className="button button--card button--compact">View All Projects</button>
+          <button className="button button--card button--compact">View All Projects <ArrowRight size={16} strokeWidth={2.4} aria-hidden="true" /></button>
         </div>
       </div>
 
