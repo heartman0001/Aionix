@@ -4,7 +4,7 @@ import { HomePage } from './pages/HomePage';
 
 export default function App() {
   return (
-    <main className="app-shell">
+    <main className="min-h-screen overflow-hidden">
       <SiteHeader />
       <HomePage />
       <SiteFooter />
